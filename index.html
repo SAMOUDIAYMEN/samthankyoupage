@@ -1,0 +1,139 @@
+<html><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank you</title>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="form_css.css" type="text/css">
+    <style>
+        *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Tajawal', sans-serif;
+    
+}
+.titleTxt{
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: .5em;
+    color: rgb(65, 65, 65);
+    font-weight: bold;
+}
+.cart{
+    width: 50%;
+    padding: 2em;
+    height: 50vh;
+    margin: 25vh auto;
+    background-color: rgb(250, 250, 250);
+    border-style: dotted;
+    border-color: green;
+}
+.check{
+    height: 3em;
+    margin: 0 .5em;
+}
+.titlethanks{
+    color: red;
+}
+.formGroup{
+    padding: .5em;
+}
+.formStyle{
+    margin: 1em 10em 1em 10em;
+    border-style: solid;
+    border-color: #FAD82B;
+    padding: 1em 0;
+    border-radius: 10px;
+}
+.formControls{
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1.8em;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: right;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.formLabel{
+    margin-bottom: .5rem;
+    float: right;
+    margin-right: .2em;
+    font-size: 1.8em;
+}
+.submitbtn{
+    font-size: 40px;
+    color: #FFF;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    border-radius: 10px;
+    padding: .7em 1.5em;
+    margin-top: .5em;
+    border-color:transparent;
+    background-color: #00e81b;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.imageholder{
+    margin-top: .5em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width:1000px) {
+    /* For tablets: */
+    .formStyle{
+        margin: 1em 5em 1em 5em ;
+    }
+    .formControls{
+        font-size: 1em;
+    }
+    .titleTxt{
+        font-size: 2.5em;
+    }
+    .cart{
+        width: 95%;
+        height: auto;
+    }
+    
+}
+@media only screen and (max-width:700px) {
+    /* For mobile phones: */
+    .formStyle{
+        margin: 1em ;
+    }
+    .submitbtn{
+        font-size: 20px;
+    }
+    .formLabel{
+        font-size: 1.5em;
+    }
+    .titleTxt{
+        font-size: 2em;
+    }
+  }
+    </style>
+</head>
+<body>
+    <div class="cart">
+        <h1 class="titleTxt titlethanks">شكرا على طلبكم</h1>
+        <div style="display: flex;" class="center"> 
+            <img class="check" src="check.png" alt="check">
+            <h3 class="center">لقد تمت الطلبية بنجاح</h3>
+        </div>
+        <br>
+        <h2 class="center">سوف نقوم بالإتصال بكم خلال الساعات القادمة من أجل إعطاءكم معلومات أكثر عن طريقة الإستعمال</h2>
+    </div>
+
+</body></html>
